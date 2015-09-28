@@ -1,0 +1,46 @@
+commit 1eb64ecbd92ef7361e60d06bca401fded725b042
+Author: ifeature <ifeature@yandex.ru>
+Date:   Sat Sep 19 21:37:22 2015 +0300
+
+    user2
+
+diff --git a/settings.php b/settings.php
+new file mode 100644
+index 0000000..f55cf17
+--- /dev/null
++++ b/settings.php
+@@ -0,0 +1,3 @@
++<?php
++    echo "Settings";
++?>
+
+commit f931fbf3d113ebd1d546415fd4d1b52c20063f9f
+Author: ifeature <ifeature@yandex.ru>
+Date:   Sat Sep 19 21:16:05 2015 +0300
+
+    github
+
+diff --git a/css/style.css b/css/style.css
+index 739dd05..8b02de9 100644
+--- a/css/style.css
++++ b/css/style.css
+@@ -11,3 +11,5 @@ p {
+ 	font-size: 24px; 
+ 	line-height: 36px;
+ }
++
++.page-footer__description { font-family: cursive; }
+diff --git a/index.html b/index.html
+index 24cb552..f49226b 100644
+--- a/index.html
++++ b/index.html
+@@ -12,5 +12,8 @@
+ 	<h6>Hello new branch!</h6>
+ 	<p>New_f text</p>
+ 	<p>Master text</p>
++	<footer class="page-footer">
++		<p class="page-footer__description">Lorem</p>
++	</footer>
+ </body>
+ </html>
+\ No newline at end of file
